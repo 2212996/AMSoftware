@@ -1,0 +1,32 @@
+$primary: hsl(228,49%,52%);
+
+div {
+  &:focus {
+    outline: 1px $primary dotted;
+  }
+}
+
+td {
+  &.active {
+    background-color: hsl(0, 0%, 95%);
+    border-color: $primary;
+  }
+  &:hover {
+    background-color: hsl(0, 0%, 95%);
+  }
+}
+
+.table tr {
+  &:hover {
+    background-color: hsl(0, 0%, 98%);
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}

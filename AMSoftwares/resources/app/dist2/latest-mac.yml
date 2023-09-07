@@ -1,0 +1,11 @@
+version: 1.0.0
+files:
+  - url: MyApp-1.0.0-mac.zip
+    sha512: DCLd2splp99p8QCONwSnTvgijgl5kErFVYMN804ut9BHsqS2KU400cvo7RpmE9Baibn7ncXvGXLnDhMBpmx4cw==
+    size: 47442603
+  - url: MyApp-1.0.0.dmg
+    sha512: 8yoqa6pIlJ1DWvqn4Zp3aWvxqkEHWvQ8KJIN+CVXuCYEqqyhkXR6SHCWkP0KDoQ7ouOjuYXRRpHsBkWFG8oHng==
+    size: 49003094
+path: MyApp-1.0.0-mac.zip
+sha512: DCLd2splp99p8QCONwSnTvgijgl5kErFVYMN804ut9BHsqS2KU400cvo7RpmE9Baibn7ncXvGXLnDhMBpmx4cw==
+releaseDate: '2023-02-11T14:39:45.540Z'

@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');*/
+/* @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Shippori+Mincho&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+
+body {
+  /* font-family: 'Shippori Mincho', serif; */
+  /* font-family: 'Klee One', serif; */
+  font-family: 'Yuji Syuku', serif;
+  text-align: center;
+  /* font-weight: 600; */
+  color:#333;
+  margin:auto;
+}
+
+@media print {
+  body {
+  size: B4;
+  margin: 0;
+  /* width: 257mm;
+  height: 364mm; */
+  }
+  .print-page{
+    page-break-before: always;
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+  body{
+    padding: 0mm;
+    margin: 0mm;
+  }
+  div{
+    padding: 0mm;
+    margin: 0mm;
+    width:100%;
+  }
+}
+
+.print-page {
+  page-break-after: always;
+  width: 257mm;
+  height: 364mm;
+  margin:0;
+  /* background-image: url('cert.jpg'); */
+  /* background-image: url('cert.jpeg');
+  background-size: cover; */
+}
+
+.print-page:last-child {
+  page-break-after: auto;
+}
+
+.contents{
+  width:90%;
+  margin:auto;
+}
+
+.comp_name{
+  padding-top: 50mm;
+  letter-spacing: 0em;
+  font-size: 13mm;
+  line-height: 2em;
+}
+
+.comp_date{
+  padding-top: 22.5mm;
+  padding-bottom:22.5mm;
+  text-align:right;
+  letter-spacing: -0.1em;
+  font-size: 12mm;
+}
+
+.winner{
+  padding-top: 18mm;
+  padding-bottom:18mm;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin:auto;
+  font-size: 14mm;
+}
+
+.col1, .col2{
+  box-sizing: border-box;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+
+.col1{
+  width: 30%;
+}
+
+.col2{
+  width: 70%;
+}
+
+.context{
+  font-size: 10mm;
+  width:100%;
+  margin:auto;
+  letter-spacing: 0em;
+  text-align: left;
+  font-size: 12mm;
+}
+/* 
+@page { size: B4; }
+@page {
+  size: B4 landscape;
+  margin: 0;
+}
+
+@media print {body { size: B4; }}
+@media print {body {
+  size: B4 landscape;
+  margin: 0;
+  width: 257mm;
+  height: 364mm;
+  page-break-before: always; 
+  page-break-after: always; 
+  page-break-inside: avoid;
+}
+.print-page{
+  page-break-before: always; 
+  page-break-after: always;
+  page-break-inside: avoid;
+}
+body{
+  padding: 0mm;  
+  margin: 0mm;  
+}
+div{
+  padding: 0mm;
+  margin: 0mm;
+  width:100%;
+}
+}
+
+@media screen {
+  body {
+    font-family: 'Yuji Syuku', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10.5mm;
+    color:black;
+    margin:auto;
+    page-break-before: always; 
+    page-break-after: always; 
+    page-break-inside: avoid;
+  }
+  .print-page{
+    page-break-before: always; 
+    page-break-after: always; 
+    page-break-inside: avoid;
+  }
+  body{
+    padding: 0mm;  
+    margin: 0mm;  
+  }
+  div{
+    padding: 0mm;
+    margin: 0mm;
+    width:100%;
+  }
+} */

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html style="background-color: #ffffff">
+    <head>
+      <link rel="stylesheet" type="text/css" href="./bulma.css" />
+      <link rel="stylesheet" type="text/css" href="./printTemplates.css" />
+    </head>
+    <body>
+      <script>
+        const ipcRenderer = require("electron").ipcRenderer;
+
+        ipcRenderer.on("printTo", (event, content) => {
+          document.body.innerHTML = content;
+          ipcRenderer.send("readyToPrint");
+        });
+      </script>
+    </body>
+</html>
+

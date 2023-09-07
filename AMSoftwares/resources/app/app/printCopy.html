@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html style="background-color: #ffffff">
+    <head>
+      <link rel="stylesheet" type="text/css" href="../node_modules/bulma/css/bulma.css" />
+      <link rel="stylesheet" type="text/css" href="./style/printCopyTemplates.css" />
+    </head>
+   
+    <body>
+      <script>
+        const ipcRenderer = require("electron").ipcRenderer;
+
+        ipcRenderer.on("printCopyTo", (event, content, extraInfo) => {
+          document.body.innerHTML = content;
+          if (extraInfo !== 'DONT_PRINT') {
+            ipcRenderer.send("readyToPrintCopy");
+          }
+        });
+      </script>
+    </body>
+</html>
