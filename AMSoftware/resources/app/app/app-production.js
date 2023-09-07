@@ -94,11 +94,11 @@ ipcMain.on('printCopyTo', (event, content, extraInfo) => {
 });
 
 ipcMain.on('readyToPrint', () => {
-  workerWin.webContents.print({ silent: true, printBackground: true, duplexMode: 'simplex' });
+  workerWin.webContents.print({ silent: false, printBackground: true, duplexMode: 'simplex' });
 });
 
 ipcMain.on('readyToPrintCopy', () => {
-  workerWin2.webContents.print({ silent: true, printBackground: true, duplexMode: 'simplex' });
+  workerWin2.webContents.print({ silent: false, printBackground: true, duplexMode: 'simplex' });
 });
 
 ipcMain.on('printMain', () => {

@@ -136,7 +136,7 @@ class PrintComponent extends React.Component {
     templateInfo.finalScore = this.props.tempScore;
     templateInfo.allScores = this.allScores();
 
-    ipcRenderer.send('printTo', renderToStaticMarkup(PrintCertificate2Template(templateInfo,this.props.temp[3])));
+    ipcRenderer.send('printTo', renderToStaticMarkup(PrintCertificate2Template(templateInfo, this.props.temp[3])));
   }
 
   onClickFinalRanksSingle() {
