@@ -93,6 +93,7 @@ ipcMain.on('printCopyTo', (event, content, extraInfo) => {
 });
 
 ipcMain.on('readyToPrint', () => {
+  setTimeout(() => {}, 1000);
   workerWin.webContents.print({ silent: false, printBackground: true, duplexMode: 'simplex' });
   // dialog.showMessageBox(win, {
   //   defaultId: 0,
