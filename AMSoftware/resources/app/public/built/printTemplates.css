@@ -12,12 +12,12 @@
 
 @media screen {
   body {
-    background: #eee;
+    /* background: #eee; */
     color:#000;
     margin:auto;
   }
   .print-page {
-    background: white; /* 背景を白く */
+    /* background: white; 背景を白く */
     box-shadow: 0 .5mm 2mm rgba(0,0,0,.3); /* ドロップシャドウ */
   }
 }
@@ -31,6 +31,8 @@
   page-break-after: always;
   width: 210mm;
   height: 296mm; /* 1mm余裕をもたせる */
+  background-image: url('../../public/built/cert2.png');
+  background-size: cover;
 }
 
 .print-page-A4 {
@@ -64,12 +66,12 @@ td {
 .comp_name{
   padding-top: 40mm;
   letter-spacing: 0em;
-  font-size: 10.6mm;
+  font-size: 11mm;
   line-height: 1.7em;
 }
 
 .comp_date{
-  padding-top: 25mm;
+  padding-top: 35mm;
   padding-bottom:18.4mm;
   text-align:right;
   letter-spacing: -0.1em;
