@@ -31,8 +31,8 @@
   page-break-after: always;
   width: 210mm;
   height: 296mm; /* 1mm余裕をもたせる */
-  background-image: url('../../public/built/cert2.png');
-  background-size: cover;
+  /* background-image: url('../../public/built/cert22.png'); */
+  /* background-size: cover; */
 }
 
 .print-page-A4 {
