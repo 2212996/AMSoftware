@@ -2,7 +2,12 @@ directories:
   output: dist
   buildResources: build
 appId: com.example.myapp
-productName: MyApp
+productName: AM_Software
+mac:
+  target: dmg
+  icon: ./_image.icns
+win:
+  icon: image.png
 files:
   - filter:
       - app

@@ -1,14 +1,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');*/
 /* @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Shippori+Mincho&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap'); */
 
 body {
   /* font-family: 'Shippori Mincho', serif; */
   /* font-family: 'Klee One', serif; */
-  font-family: 'Yuji Syuku', serif;
+  font-family: 'YuMincho', 'Yu Mincho';
   text-align: center;
   /* font-weight: 600; */
-  color:#333;
+  color:#000;
   margin:auto;
 }
 
@@ -57,7 +57,7 @@ body {
 .comp_name{
   padding-top: 50mm;
   letter-spacing: 0em;
-  font-size: 13mm;
+  font-size: 12mm;
   line-height: 2em;
 }
 

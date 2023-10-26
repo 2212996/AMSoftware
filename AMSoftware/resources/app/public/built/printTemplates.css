@@ -1,18 +1,23 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap'); */
 
-@font-face {
+/* @font-face {
 	font-family: "Yuji Syuku";
 	src: url("Yuji_Syuku/YujiSyuku-Regular.ttf") ;
-}
+ } */
 
 @page {
   size: A4;
   margin: 0;
+
+  font-family: 'YuMincho', 'Yu Mincho';
+  /* font-family: 'YuGothic', 'Yu Gothic'; */
 }
 
 @media screen {
   body {
     /* background: #eee; */
+    font-family: 'YuMincho', 'Yu Mincho';
+    /* font-family: 'YuGothic', 'Yu Gothic'; */
     color:#000;
     margin:auto;
   }
@@ -31,8 +36,10 @@
   page-break-after: always;
   width: 210mm;
   height: 296mm; /* 1mm余裕をもたせる */
-  /* background-image: url('../../public/built/cert22.png'); */
-  /* background-size: cover; */
+  background-image: url('../../public/built/a.png');
+  background-size: cover;
+  font-family: 'YuMincho', 'Yu Mincho';
+  /* font-family: 'YuGothic', 'Yu Gothic'; */
 }
 
 .print-page-A4 {
@@ -56,36 +63,46 @@ td {
 
 /*ここから変更*/
 .contents{
-  width:90%;
+  width:73%;
   margin:auto;
 
-  font-family: 'Yuji Syuku', serif;
+  /* font-family: 'Yuji Syuku', serif; */
+  font-family: 'YuMincho', 'Yu Mincho';
   text-align: center;
 }
 
+.comp_title_top{
+  padding-top: 35mm;
+  padding-bottom:0mm;
+  text-align:center;
+  letter-spacing: -0.1em;
+  font-size: 17.5mm;
+  font-weight: bold;
+}
+
+.comp_title_sub{
+  padding-top: 5mm;
+  text-align:center;
+  letter-spacing: -0.1em;
+  font-size: 10mm;
+  line-height: 10mm;
+}
+
 .comp_name{
-  padding-top: 40mm;
+  padding-top: 7.5mm;
   letter-spacing: 0em;
-  font-size: 11mm;
+  font-size: 10mm;
   line-height: 1.7em;
 }
 
-.comp_date{
-  padding-top: 35mm;
-  padding-bottom:18.4mm;
-  text-align:right;
-  letter-spacing: -0.1em;
-  font-size: 9.8mm;
-}
-
 .winner{
-  padding-top: 15mm;
-  padding-bottom:20mm;
+  padding-top: 12.5mm;
+  padding-bottom:15mm;
   display: flex;
   flex-wrap: wrap;
   width: 75%;
   margin:auto;
-  font-size: 11.4mm;
+  font-size: 9mm;
 }
 
 .col1, .col2{
@@ -100,6 +117,7 @@ td {
 
 .col2{
   width: 70%;
+  white-space: nowrap;
 }
 
 .context{
@@ -108,5 +126,20 @@ td {
   margin:auto;
   letter-spacing: 0em;
   text-align: left;
-  font-size: 9.8mm;
+  font-size: 8mm;
+}
+
+.comp_date{
+  padding-top: 30mm;
+  padding-bottom:2.5mm;
+  text-align:right;
+  letter-spacing: -0.1em;
+  font-size: 7mm;
+}
+
+.comp_sponser{
+  padding-top: 2.5mm;
+  text-align:right;
+  letter-spacing: -0.1em;
+  font-size: 8mm;
 }
