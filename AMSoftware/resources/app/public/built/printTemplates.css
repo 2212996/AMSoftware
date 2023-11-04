@@ -9,7 +9,7 @@
   size: A4;
   margin: 0;
 
-  font-family: 'YuMincho', 'Yu Mincho';
+  /* font-family: 'YuMincho', 'Yu Mincho'; */
   /* font-family: 'YuGothic', 'Yu Gothic'; */
 }
 
@@ -36,7 +36,7 @@
   page-break-after: always;
   width: 210mm;
   height: 296mm; /* 1mm余裕をもたせる */
-  background-image: url('../../public/built/a.png');
+  /* background-image: url('../../public/built/oss.png'); */
   background-size: cover;
   font-family: 'YuMincho', 'Yu Mincho';
   /* font-family: 'YuGothic', 'Yu Gothic'; */
@@ -80,11 +80,23 @@ td {
   font-weight: bold;
 }
 
+.comp_title_top a1{
+  color:#fff;
+}
+
 .comp_title_sub{
   padding-top: 5mm;
   text-align:center;
   letter-spacing: -0.1em;
   font-size: 10mm;
+  line-height: 10mm;
+}
+
+.comp_title_subsub{
+  padding-top: 5mm;
+  text-align:center;
+  letter-spacing: -0.1em;
+  font-size: 7mm;
   line-height: 10mm;
 }
 
@@ -120,6 +132,14 @@ td {
   white-space: nowrap;
 }
 
+.col1 a1{
+  color:#fff;
+}
+
+.col2 a1{
+  color:#fff;
+}
+
 .context{
   font-size: 8.17mm;
   width:95%;
@@ -130,16 +150,65 @@ td {
 }
 
 .comp_date{
-  padding-top: 30mm;
-  padding-bottom:2.5mm;
-  text-align:right;
+  padding-top: 35mm;
+  padding-bottom:0mm;
+  padding-left:10mm;
+  text-align:left;
   letter-spacing: -0.1em;
   font-size: 7mm;
 }
 
 .comp_sponser{
-  padding-top: 2.5mm;
-  text-align:right;
+  padding-top: 0mm;
+  padding-left:10mm;
+  text-align:left;
+  font-size: 9mm;
+}
+
+.comp_sponser a1{
+  text-align:left;
+  font-size: 7mm;
   letter-spacing: -0.1em;
-  font-size: 8mm;
+}
+
+
+
+
+
+.space{
+  width:42%;
+  margin-left:76mm;
+}
+
+.name{
+  color:#000;
+  font-family: 'YuMincho', 'Yu Mincho';
+  text-align: center;
+  padding-top: 132mm;
+  padding-bottom:0mm;
+  /* padding-right:62.5mm; */
+  letter-spacing: 0mm;
+  font-size: 13mm;
+}
+
+.name1{
+  color:#000;
+  font-family: 'YuMincho', 'Yu Mincho';
+  text-align: center;
+  padding-top: 120mm;
+  padding-bottom:0mm;
+  /* padding-right:62.5mm; */
+  letter-spacing: 0mm;
+  font-size: 13mm;
+}
+
+.name2{
+  color:#000;
+  font-family: 'YuMincho', 'Yu Mincho';
+  text-align: center;
+  padding-top: 2mm;
+  padding-bottom:0mm;
+  /* padding-right:62.5mm; */
+  letter-spacing: 0mm;
+  font-size: 13mm;
 }
