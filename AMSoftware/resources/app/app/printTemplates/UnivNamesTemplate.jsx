@@ -44,7 +44,9 @@ const UnivNamesTemplate = (data, pages) => {
         <td style={{ width: '8mm' }}>{`${index + 1}H`}</td>
         <td></td>
         <td></td>
-        <td style={{ width: '75mm' }}></td>
+        <td></td>
+        <td></td>
+        <td></td>
       </tr>,
     );
     heat.forEach((competitorId) => {
@@ -52,8 +54,10 @@ const UnivNamesTemplate = (data, pages) => {
         <tr style={{ height: '8mm', borderBottomWidth: '1px'  }} key={competitorId}>
           <td style={{ width: '8mm' }}>{data.competitors[competitorId].number}</td>
           <td>{data.competitors[competitorId].leaderName}</td>
+          <td>{data.competitors[competitorId].leaderKana}</td>
           <td>{data.competitors[competitorId].partnerName}</td>
-          <td style={{ width: '75mm' }}>{data.competitors[competitorId].group}</td>
+          <td>{data.competitors[competitorId].partnerKana}</td>
+          <td>{data.competitors[competitorId].group}</td>
         </tr>,
       );
     });

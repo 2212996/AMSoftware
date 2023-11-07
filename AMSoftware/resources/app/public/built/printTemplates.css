@@ -149,6 +149,10 @@ td {
   font-size: 8mm;
 }
 
+.context a1{
+  color:#fff;
+}
+
 .comp_date{
   padding-top: 35mm;
   padding-bottom:0mm;
@@ -184,7 +188,7 @@ td {
   color:#000;
   font-family: 'YuMincho', 'Yu Mincho';
   text-align: center;
-  padding-top: 132mm;
+  padding-top: 128mm;
   padding-bottom:0mm;
   /* padding-right:62.5mm; */
   letter-spacing: 0mm;
@@ -195,7 +199,7 @@ td {
   color:#000;
   font-family: 'YuMincho', 'Yu Mincho';
   text-align: center;
-  padding-top: 120mm;
+  padding-top: 118mm;
   padding-bottom:0mm;
   /* padding-right:62.5mm; */
   letter-spacing: 0mm;

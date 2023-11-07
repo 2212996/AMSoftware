@@ -72,7 +72,7 @@ const PrintCertificate2Template = (data, ranks) => {
                         <div className="col2"><a1>ㅤㅤ</a1></div>
                     </div>
                     <div className="context">
-                        {`あなたがたのチームは頭書の大会において優秀な成績を収められましたのでこれを賞します`}
+                        {`あなたは頭書の大会において優秀な成績を収められましたのでこれを賞します`}
                     </div>
                     <div className="comp_date">令和5年11月5日</div>
                     <div className="comp_sponser"><a1>A.M Dance international Scool 代表</a1> 曾 偉修</div>
@@ -154,7 +154,7 @@ const PrintCertificate2Template = (data, ranks) => {
                         <div className="col2"><a1>ㅤㅤ</a1></div>
                     </div>
                     <div className="context">
-                        {`あなたがたのチームは頭書の大会において優秀な成績を収められましたのでこれを賞します`}
+                        {`あなたは頭書の大会において優秀な成績を収められましたのでこれを賞します`}
                     </div>
                     <div className="comp_date">令和5年11月5日</div>
                     <div className="comp_sponser"><a1>A.M Dance international Scool 代表</a1> 曾 偉修</div>
@@ -232,7 +232,7 @@ const PrintCertificate2Template = (data, ranks) => {
                         <div className="col2"><a1>ㅤㅤ</a1></div>
                     </div>
                     <div className="context">
-                        {`あなたがたのチームは頭書の大会において優秀な成績を収められましたのでこれを賞します`}
+                        {`あなたは頭書の大会において優秀な成績を収められましたのでこれを賞します`}
                     </div>
                     <div className="comp_date">令和5年11月5日</div>
                     <div className="comp_sponser"><a1>A.M Dance international Scool 代表</a1> 曾 偉修</div>
